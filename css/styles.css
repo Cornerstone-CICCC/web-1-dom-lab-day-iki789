@@ -51,5 +51,29 @@ body {
   flex: 1;
   padding: 0.25rem;
 }
+.container #employees table {
+  width: 100%;
+}
+.container #employees table thead tr th {
+  padding: 0.5rem;
+  background-color: orange;
+  border: 1px solid orange;
+}
+.container #employees table tr td {
+  padding: 0.5rem;
+  border-left: 1px solid orange;
+  border-bottom: 1px solid orange;
+}
+.container #employees table tr td img {
+  width: 50px;
+  max-width: 100%;
+  border-radius: 0.25rem;
+}
+.container #employees table tr td:first-child {
+  text-align: center;
+}
+.container #employees table tr td:last-child {
+  border-right: 1px solid orange;
+}
 
 /*# sourceMappingURL=styles.css.map */

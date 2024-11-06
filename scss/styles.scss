@@ -27,7 +27,7 @@ body {
     fieldset {
       display: flex;
       flex-direction: column;
-      gap: .5rem;
+      gap: 0.5rem;
 
       legend {
         font-weight: 700;
@@ -40,19 +40,48 @@ body {
 
         input {
           flex: 1;
-          padding: .25rem;
+          padding: 0.25rem;
         }
       }
 
       &.form__btns {
         display: flex;
         flex-direction: row;
-        gap: .5rem;
+        gap: 0.5rem;
 
         button {
           flex: 1;
-          padding: .25rem;
+          padding: 0.25rem;
         }
+      }
+    }
+  }
+
+  #employees {
+    table {
+      width: 100%;
+      thead {
+        tr th {
+          padding: 0.5rem;
+          background-color: orange;
+          border: 1px solid orange;
+        }
+      }
+      tr td {
+        padding: 0.5rem;
+        border-left: 1px solid orange;
+        img {
+          width: 50px;
+          max-width: 100%;
+          border-radius: 0.25rem;
+        }
+        &:first-child {
+          text-align: center;
+        }
+        &:last-child {
+          border-right: 1px solid orange;
+        }
+        border-bottom: 1px solid orange;
       }
     }
   }
